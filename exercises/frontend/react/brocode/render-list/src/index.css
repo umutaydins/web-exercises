@@ -1,0 +1,28 @@
+
+.list-category{
+    font-size: 2.5em;
+    font-family: Arial, sans-serif;
+    text-align: center;
+    border: 5px solid;
+    background-color: aqua;
+    border-radius: 10px;
+    max-width: 300px;
+    display: flex;
+    flex-direction: row;
+    margin: auto;
+    justify-content: center;
+}
+
+.list-items li{
+    text-align: center;
+    font-size: 1.5em;
+    list-style: none;
+    color: hsl(0, 0, 0.25);
+    margin:0;
+}
+
+.list-items li:hover{
+    font-size: 1.7em;
+    color: hsl(0, 0, 0.50);
+    cursor: pointer;
+}
